@@ -1,6 +1,6 @@
-import dueHtml from "../../../private-courses/due-diligence.html?raw";
-import auctionHtml from "../../../private-courses/arrematacao.html?raw";
-import incorporationHtml from "../../../private-courses/incorporacao.html?raw";
+import dueHtml from "../../../public/private-courses/due-diligence.html?raw";
+import auctionHtml from "../../../public/private-courses/arrematacao.html?raw";
+import incorporationHtml from "../../../public/private-courses/incorporacao.html?raw";
 
 const htmlByCourse:Record<string,string>={"due-diligence":dueHtml,arrematacao:auctionHtml,incorporacao:incorporationHtml};
 const previewMeta:Record<string,{documentName:string;buttonName:string}>={
